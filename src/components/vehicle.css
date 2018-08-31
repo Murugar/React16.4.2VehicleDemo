@@ -1,0 +1,58 @@
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 260px;
+    margin-bottom: 10px;
+}
+
+.containCard {
+    display: inline-block;
+}
+
+.card {
+    margin: 20px;
+    width: 300px; 
+    height: 330px;
+    border-radius: 0px !important;
+    box-shadow: 0.1px 0.1px 0.5px 0.5px rgba(0, 0, 0, 0.1);
+    background-color: black !important;
+    color: white;
+    text-shadow: 1px 1px 2px white;
+    font-family: 'Exo', sans-serif;
+    padding-bottom: 20px;
+}
+
+.card:hover {
+    border: 0.6px solid white;  
+}
+
+.links {
+    text-decoration: none !important;
+    color: rgba(255, 255, 255, 0.582);
+}
+.links:hover {
+    color: white;
+ 
+}
+
+.btnEdit {
+    background-image: url('../pics/logo-edit.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.btnDelete {
+    background-image: url('../pics/logo-delete.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+.nameVehicle {
+    height: 50px;
+}
